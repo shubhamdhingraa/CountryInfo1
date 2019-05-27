@@ -166,7 +166,7 @@ function getDetails()
                     <p align="left">Area Code: ${country[ind].area}</p>
                     <p align="left">Numeric Code: ${country[ind].numericCode}</p>
                     <br>
-                    <a href="javascript:history.back()" onclick=hideDetails()><i align="left">Please click on Card for further details.</i></a>
+                    <a href="javascript:history.back()" onclick=hideDetails()><i align="left">Please click here to go back.</i></a>
                 </div>
 
             </div>
