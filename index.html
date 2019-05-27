@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="js/main.js"></script>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="https://www.freshworks.com/" target="_blank">Freshworks Project</a>
+  <a href="#about">Application hosted on Firebase</a>
+  <a href="#contact">Contact</a>
+  <div class="search-container">
+    <form id="myForm">
+      <input type="text" placeholder="Enter any country" id="search">
+      <button type="submit" onclick=myFunction()></button>
+    </form>
+  </div>
+</div>
+
+<div id="countryDetails">
+</div>
+<div class="row">
+    <div class="column">
+
+        <div class="card">
+        <div class="container">
+            <h4 class="text-center">Please search country in the top right searchbar.</h4>
+            <h4 class="text-center">Functional and Non Functional Tasks Done:</h4>
+            <p>1. The first page should have a search bar on top that should be used to search for any country by making an API call. You can use APIs from https://restcountries.eu/. :Done</p>
+            <p>2. The search results should be displayed on the same page as cards with the name and the
+              flag of the country, without refreshing the web page. :Done</p>
+            <p>3. On clicking a card, the app should redirect to a page that shows country details. Display
+              all interesting details that are returned by the API. You are free to design this page as you
+              see fit. :Done</p>
+              <p>4. The details page should have a link to go back to the previous page, where the search
+                  results were displayed. :Done</p>
+              <p>5. API Calls using fetch API :Done</p>
+              <p>6. Bootstarp and Media Queries used :Done</p>
+            <p>7.Responsive Pages :Done</p>
+            <p>8. Error Handled for the 404 not found(API returns no output for query) :Done</p>
+              <p>9. Built only using HTML, CSS and Javascript, no frontend framework :Done</p>
+            <p>10. Clean code and comments are highly appreciated. :Done</p>
+            <p>11. Bonus points for good error handling. :Done</p>
+            <p>7. Bonus points for adding interesting features as well.(Short summar for first page) :Done</p>      
+        </div>
+        </div>
+        </div>
+    <div class="column">
+
+        <div class="container">
+            <h4 align="center"><b>Optimizations</b></h4> 
+            <p>1. Memoized(DP) Approach is taken into account, only one API call is needed for one query and then stored in session storage for later access. Latency Time reduced.</p>
+          <p>2. Error handling done for edge cases, in case no result for the provided query. Error handling for 404 status.</p>
+          <p>3. Code is commented</p>   
+          <p>4. Hosted on Google Firebase.</p>
+        </div>
+
+    </div>
+</div>
+
+</body>
+<script>goBack()</script>
+
+<!-- App hosted on firebase at freshworkss1.firebaseapp.com The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/6.0.4/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#reserved-urls -->
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+</html>
